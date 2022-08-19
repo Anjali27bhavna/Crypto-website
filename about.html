@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        .crypto .btn{
+            color: rgb(204, 140, 20);
+            font-size: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 1px solid rgb(204, 140, 20);
+            padding: 5px;
+        }
+        .heading{
+	        text-align: center;
+	        color: var(--black);
+	        font-size: 3rem;
+	        padding-bottom:  2rem;
+	        text-transform: uppercase;
+        }
+        .crypto .box-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+	gap:1.5rem;
+
+}
+.crypto .box-container .box{
+	padding: 2.5rem;
+	background:#fff;
+	border-radius: .5rem;
+	border: .1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+.crypto .box-container .box img{
+	height: 17rem;
+	margin: 1rem 0;
+}
+        
+    </style>
+</head>
+<body>
+    <section class="crypto">
+        <h3 class="heading">Popular Crypto</h3>
+        <div class="box-container">
+            <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/bitcoin.png">
+            <h3>Bit Coin</h3>
+           
+            <span>$21,685.20</span>
+            <a href="#" id="bitcoin" class="btn">Buy now</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/dogecoin.png">
+            <h3>Doge Coin</h3>
+          
+            <span>$0.070</span>
+            <a href="#" class="btn">Buy now</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/etherium.png">
+            <h3>Etherium</h3>
+           
+            <span>$1,739.38</span>
+            <a href="#" class="btn">Buy now</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/ripple.png">
+            <h3>Ripple Coin</h3>
+            
+            <span>$4,747.56</span>
+            <a href="#" class="btn">Buy now</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/torn.png">
+            <h3>Torn Coin</h3>
+           
+            <span>$0.100</span>
+            <a href="#" class="btn">Buy now</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="img/binance.png">
+            <h3>Binance Coin</h3>
+            
+            <span>$283.96</span>
+            <a href="#" class="btn">Buy now</a>
+        </div>
+        </div>
+    </section>
+</html>
